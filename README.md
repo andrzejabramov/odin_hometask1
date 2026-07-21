@@ -21,7 +21,7 @@
 ### 🎨 UI/UX Прототип <a id="figma-prototype"></a>
 
 Ниже представлен интерактивный прототип мобильного приложения.
-_(Здесь будет встроен фрейм Figma. Инструкцию по получению ссылки см. ниже)_
+_(Здесь встроен фрейм Figma)_
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/aGG1th64a9ZCIcRBaLh48u/Bike-Sharing-App-UI--Community-?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
