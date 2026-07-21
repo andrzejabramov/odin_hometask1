@@ -8,9 +8,11 @@
 2. [📊 Документ 2: Систематизация данных](docs/02-data-systematization.md)
 3. [📋 Документ 3: Реестр требований](docs/03-requirements-registry.md)
 4. [⚙️ Документ 4: Требования к системе (SRS)](docs/04-srs.md)
-5. [📊 Диаграммы (Mermaid)](diagrams/charts.md)
-6. [🔌 API Контракт (OpenAPI / Swagger)](api/index.html) _(Интерактивная документация)_
-7. [🎨 UI/UX Прототип (Figma)](#figma-prototype)
+5. [📊 Диаграмма Use Case](diagrams/use-case.md)
+6. [📊 Диаграмма Успешная аренда с автозавершением](diagrams/sequence-rental.md)
+7. [📊 Диаграмма Жизненный цикл аренды](diagrams/state-machine-rental.md)
+8. [🔌 API Контракт (OpenAPI / Swagger)](api/index.html) _(Интерактивная документация)_
+9. [🎨 UI/UX Прототип (Figma)](#figma-prototype)
 
 ---
 
