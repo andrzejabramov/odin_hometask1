@@ -47,8 +47,8 @@
     </style>
   </head>
   <body>
-    <!-- Кнопка возврата в оглавление -->
-    <a href="../README.md" class="back-button">⬅️ Вернуться к оглавлению</a>
+    <!-- ИСПРАВЛЕНО: href="../" вместо href="../README.md", чтобы GitHub Pages отдал отрендеренный HTML -->
+    <a href="../" class="back-button">⬅️ Вернуться к оглавлению</a>
 
     <!-- Контейнер для Swagger UI -->
     <div id="swagger-ui"></div>
@@ -58,7 +58,7 @@
     <script>
       window.onload = function () {
         window.ui = SwaggerUIBundle({
-          url: "./openapi.yaml", // Путь к твоему файлу спецификации
+          url: "./openapi.yaml",
           dom_id: "#swagger-ui",
           deepLinking: true,
           presets: [
@@ -68,7 +68,7 @@
           layout: "BaseLayout",
           defaultModelsExpandDepth: 1,
           defaultModelExpandDepth: 1,
-          docExpansion: "list", // Раскрывать только методы по умолчанию
+          docExpansion: "list",
         });
       };
     </script>
